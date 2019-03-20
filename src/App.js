@@ -9,7 +9,7 @@ const App = () => {
 	const [ modal, toggleModal ] = useState(false);
 	const [ imgURLIndex, useImgURLIndex ] = useState();
 	const photoURLs = [];
-	for (let i = 0; i < 8; i++) {
+	for (let i = 1; i < 8; i++) {
 		photoURLs.push(`/images/${i}-min.jpg`);
 	}
 	const homeRef = React.createRef();
